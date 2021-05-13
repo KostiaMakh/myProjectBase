@@ -11,7 +11,7 @@ function pasteHeader() {
     <div class="container">
         <div class="row">
             <div class="col-3 col-md-2 logoBlock">
-                <a href="../../index.html">
+                <a href="${mineSite}index.html">
                     <img src="http://myproject.msk.ru/images/logo11.jpg">
                 </a> 
             </div>
@@ -36,7 +36,7 @@ function pasteModalMobileMenu() {
                 <nav id="menuMobile">
                     <ul>
                         <li><a href="http://myproject.msk.ru/ru/">Сайт компании</a></li>
-                        <li><a href="${mineSite}/pages/innerStructure/innerStructure.html">Руководство</a></li>
+                        <li><a href="${mineSite}pages/innerStructure/innerStructure.html">Руководство</a></li>
                     </ul>
                 </nav>
                 <div id="menuClose" onclick="closeMobileMenu()"><i class="far fa-times-circle"></i></div>

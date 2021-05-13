@@ -25,8 +25,23 @@
   top: 0;
   left: 0;
   min-height: 100vh;
-  width: 200px;
-  background-color: rgba(232,232,232, 1);
+  width: 75%;
+  background-color: rgba(200,200,200, 1);
+  ul{
+    padding-top: 30px;
+    padding-left: 15px;
+    li{
+      list-style: none;
+      a{
+        color: initial;
+        color: white;
+        text-transform: uppercase;
+        font-weight: lighter;
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+    }
+  }
 }
 #menuClose{
   position: absolute;
@@ -75,6 +90,9 @@ header{
     a{
       padding: 15px 0;
       display: block;
+      @media screen and (max-width: 750px){
+        padding: 7px 0;
+      }
       img{
         animation: showLogo 1.2s linear;
         display: block;
@@ -163,6 +181,11 @@ header{
         }
       }
     }
+  .innerStructureTable{
+    div{
+      margin-bottom: 15px;
+    }
+  }
   .instructionExpl{
     line-height: 1.5em;
     .boldTextMain{
@@ -201,6 +224,27 @@ table{
     }
   }
 }
+
+//Стилизация ячеек с правами досткпа пользователей
+.pravaDostupa{
+  display: block;
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.read{
+  border: 1.5px solid rgba(98, 212, 77, 1);
+  background-color: #ceffbc;
+  color: rgba(98, 212, 77, 1);
+}
+.protect{
+  border: 1.5px solid #cf2f26;
+  background-color: #fda595;
+  color: #cf2f26;
+}
+
 @keyframes showLogo {
   from{
     width: 0;

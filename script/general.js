@@ -4,6 +4,8 @@ function startPage() {
     pasteModalMobileMenu()
 }
 
+let mineSite = 'https://cancer2659.github.io/myProjectBase/'
+
 function pasteHeader() {
     let myHeader = `
     <div class="container">
@@ -34,7 +36,7 @@ function pasteModalMobileMenu() {
                 <nav id="menuMobile">
                     <ul>
                         <li><a href="http://myproject.msk.ru/ru/">Сайт компании</a></li>
-                        <li>Руководство</li>
+                        <li><a href="${mineSite}/pages/innerStructure/innerStructure.html">Руководство</a></li>
                     </ul>
                 </nav>
                 <div id="menuClose" onclick="closeMobileMenu()"><i class="far fa-times-circle"></i></div>

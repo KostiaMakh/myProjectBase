@@ -188,7 +188,8 @@ table {
   width: 100%;
   text-align: center;
   font-size: 16px;
-  border-radius: 4px; }
+  border-radius: 4px;
+  line-height: 16px; }
 
 .read {
   border: 1.5px solid #62d44d;
@@ -199,6 +200,12 @@ table {
   border: 1.5px solid #cf2f26;
   background-color: #fda595;
   color: #cf2f26; }
+
+.video-name {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem; }
 
 @keyframes showLogo {
   from {

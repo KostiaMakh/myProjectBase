@@ -233,6 +233,7 @@ table{
   text-align: center;
   font-size: 16px;
   border-radius: 4px;
+  line-height: 16px;
 }
 .read{
   border: 1.5px solid rgba(98, 212, 77, 1);
@@ -244,7 +245,13 @@ table{
   background-color: #fda595;
   color: #cf2f26;
 }
-
+//Стилизация названия видио
+.video-name{
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
 @keyframes showLogo {
   from{
     width: 0;

@@ -121,9 +121,15 @@ header nav ul li {
   padding: 40px 0; }
   .main_content h1 {
     text-align: center;
-    font-size: 26px;
+    font-size: 2rem;
     font-weight: bolder;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase; }
+  .main_content h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
     text-transform: uppercase; }
   .main_content .menuPointMainPage {
     display: block;
@@ -148,10 +154,10 @@ header nav ul li {
       background-color: rgba(228, 36, 43, 0.8); }
       .main_content .menuPointMainPage:hover > span {
         color: white; }
-  .main_content .innerStructureTable div {
-    margin-bottom: 15px; }
   .main_content .instructionExpl {
-    line-height: 1.5em; }
+    padding: 0;
+    line-height: 1.5em;
+    margin-bottom: 2rem; }
     .main_content .instructionExpl .boldTextMain {
       font-weight: bolder; }
 
@@ -205,7 +211,33 @@ table {
   display: block;
   font-size: 1.1rem;
   font-weight: bolder;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5rem;
+  text-align: center; }
+
+.iFrame-video-obzor {
+  max-width: 800px;
+  height: 500px;
+  margin: auto; }
+  @media screen and (max-width: 750px) {
+    .iFrame-video-obzor {
+      height: 300px; } }
+
+.content-list {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1.5rem;
+  border: 0.5px rgba(120, 120, 120, 0.2) solid;
+  background-color: white; }
+  @media screen and (max-width: 750px) {
+    .content-list {
+      padding: 8px 5px; } }
+
+.content-list-name {
+  display: block;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem; }
 
 @keyframes showLogo {
   from {

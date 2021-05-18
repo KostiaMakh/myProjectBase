@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Программа подбора оборудования. Руководство</title>
+    <link rel="stylesheet" href="../../style/style.css">
+
+</head>
+<body onload="startPage()">
+<header id="mainHeader"></header>
+<section class="main_content">
+    <div class="container">
+        <h1>Программа подбора оборудования. Руководство</h1>
+        <!--содержание страницы-->
+        <div class="content-list">
+            <span class="content-list-name">Содержание</span>
+            <ul>
+                <li><a href="#mark1VbaGeneral">Общие сведения о программе</a></li>
+                <li><a href="#mark2VbaGeneral">Структура папки подбора оборудования</a></li>
+                <li><a href="#">Добавление папок из "1. АРХИВ" в "2. ТЕКУЩИЕ"</a></li>
+            </ul>
+        </div>
+<!--Block1. General information about folder-->
+        <div class="instructionExpl" id="mark1VbaGeneral">
+            <h2>Общие сведения о программе подбора оборудования</h2>
+            <p>Программа подбора оборудования предназначена для:</p>
+            <ol>
+                <li>Расчета себестоимости оборудования производства Экополимер (только изделия из металла);</li>
+                <lI>Подготовка текнико-коммерческих предложений;</lI>
+                <li>Подготовки комплексных технико-коммерческих предложений на оборудование;</li>
+                <li>Подготовки РДЦ (расчет договорной цены) для сотрудником отдела маркетинга;</li>
+                <li>Подготовки спецификаций оборудования для проектного отдела;</li>
+            </ol>
+            <span><span class="boldTextMain">Программа подбора оборудования расположена по адресу:</span>  H:\Отделы\ОТО\object (OTONEW)\ОБОРУДОВАНИЕ ЭКОПОЛИМЕР\8. НОВЫЕ ЦЕНЫ\VBA</span>
+        </div>
+ <!--Block2. Folder structure-->
+        <div class="instructionExpl" id="mark2VbaGeneral">
+            <h2>Структура папки подбора оборудования</h2>
+            <img src="images/vbaFoldersStructure.JPG" alt="Структура папки программы подбора оборудования" class="specificImg">
+            <span class="specificForImg">Рисунок 1 - структура папок внутреннего каталога</span>
+            <div class="row mb-3">
+                <!--Arh-->
+                <div class="col-7 col-sm-9 col-md-3 col-xl-3 d-flex align-items-center font-weight-bolder mb-1">Arh</div>
+                <div class="col-5 col-sm-3 col-md-2 col-xl-1 d-flex align-items-center justify-content-end font-weight-bolder mb-1"><span class="pravaDostupa protect">чтение</span></div>
+                <div class="col-12 col-md-7 col-xl-8 d-flex align-items-center mb-3">Архив файлов расчетов, различные архивные версии программы подбора;</div>
+                <!--Calculation-->
+                <div class="col-7 col-sm-9 col-md-3 col-xl-3 d-flex align-items-center font-weight-bolder  mb-1">Calculation</div>
+                <div class="col-5 col-sm-3 col-md-2 col-xl-1 d-flex align-items-center justify-content-end font-weight-bolder mb-1"><span class="pravaDostupa protect">чтение</span></div>
+                <div class="col-12 col-md-7 col-xl-8 d-flex align-items-center mb-3">Архив основных файлов расчетов подбираемого оборудования;</div>
+                <!--GeneralInformation-->
+                <div class="col-7 col-sm-9 col-md-3 col-xl-3 d-flex align-items-center font-weight-bolder mb-1">GeneralInformation</div>
+                <div class="col-5 col-sm-3 col-md-2 col-xl-1 d-flex align-items-center justify-content-end font-weight-bolder mb-1"><span class="pravaDostupa protect">чтение</span></div>
+                <div class="col-12 col-md-7 col-xl-8 d-flex align-items-center mb-3">База общей информации по оборудованию для программы расчета (на данный момент не актуальна);</div>
+                <!--Marketing-->
+                <div class="col-7 col-sm-9 col-md-3 col-xl-3 d-flex align-items-center font-weight-bolder mb-1">Marketing</div>
+                <div class="col-5 col-sm-3 col-md-2 col-xl-1 d-flex align-items-center justify-content-end font-weight-bolder mb-1"><span class="pravaDostupa protect">чтение</span></div>
+                <div class="col-12 col-md-7 col-xl-8 d-flex align-items-center mb-3">Архив РДЦ файлов (расчет договорной цены) для отделов маркетинга;</div>
+                <!--NotPublic-->
+                <div class="col-7 col-sm-9 col-md-3 col-xl-3 d-flex align-items-center font-weight-bolder mb-1">NotPublic</div>
+                <div class="col-5 col-sm-3 col-md-2 col-xl-1 d-flex align-items-center justify-content-end font-weight-bolder mb-1"><span class="pravaDostupa protect">чтение</span></div>
+                <div class="col-12 col-md-7 col-xl-8 d-flex align-items-center mb-3">Вспомагательный файлы для программы подобра оборудования на основании которых формируются расчеты, технико-коммерческие предложения;</div>
+                <!--Price-->
+                <div class="col-7 col-sm-9 col-md-3 col-xl-3 d-flex align-items-center font-weight-bolder mb-1">Price</div>
+                <div class="col-5 col-sm-3 col-md-2 col-xl-1 d-flex align-items-center justify-content-end font-weight-bolder mb-1"><span class="pravaDostupa protect">чтение</span></div>
+                <div class="col-12 col-md-7 col-xl-8 d-flex align-items-center mb-3">Локальная копия файлов с расчетом себестоимости выкладываемых на общий доступ (для департамента финансов ДФ);</div>
+                <!--Proposal-->
+                <div class="col-7 col-sm-9 col-md-3 col-xl-3 d-flex align-items-center font-weight-bolder mb-1">Proposal</div>
+                <div class="col-5 col-sm-3 col-md-2 col-xl-1 d-flex align-items-center justify-content-end font-weight-bolder mb-1"><span class="pravaDostupa protect">чтение</span></div>
+                <div class="col-12 col-md-7 col-xl-8 d-flex align-items-center mb-3">Архив технико-коммерческих предложений на расчитанное оборудование;</div>
+                <!--Specification-->
+                <div class="col-7 col-sm-9 col-md-3 col-xl-3 d-flex align-items-center font-weight-bolder mb-1">Specification</div>
+                <div class="col-5 col-sm-3 col-md-2 col-xl-1 d-flex align-items-center justify-content-end font-weight-bolder mb-1"><span class="pravaDostupa protect">чтение</span></div>
+                <div class="col-12 col-md-7 col-xl-8 d-flex align-items-center mb-3">Архив спецификаций формируемых программой для проектного отдела;</div>
+            </div>
+        </div>
+
+
+
+
+<!--Block2. Create new Object folder-->
+        <div class="instructionExpl" id="mark2ObjectStructure">
+            <h2>Создание новых папок объектов</h2>
+            <p>При поступлении задачи для объекта который ранее не прорабатывался (папки с названием объекта нет в папке "1. Архив") необходимо в папке "1. Архив" создать папку объекта. Для создания папки объекта необходимо использовать шаблон папки "0. ШАБЛОН" находящийся в папке "1. Архив"</p>
+            <p>Название папки объекта должно соответствовать следующему шаблону: "Название объекта (Фамилия менеджера объекта)", пример приведен на Рисунке 2. Вся последующая внутренняя структура папки должна соответствовать шаблону.</p>
+            <img src="img/objectStructure_ObjectNames.JPG" alt="Название папки объекта" class="specificImg">
+            <span class="specificForImg">Рисунок 2 - название папок объектов</span>
+            <!--<span class="video-name">Создание новой папки объекта по шаблону</span>-->
+            <div class="iFrame-video-obzor">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/s21svtZ8cpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+<!--Block3. Copy folder from arhive to active -->
+        <div class="instructionExpl" id="mark3ObjectStructure">
+            <h2>Добавление папок из "1. АРХИВ" в "2. ТЕКУЩИЕ"</h2>
+            <p>Для удобства поиска ссылка на папку объекта может быть вынесена в специальную папку "2. Текущие", это позволяет максимально быстро получить доступ к папкам выполняемых на данный момент объектов. По завершению работы с объектом ссылка на папку удаляется.</p>
+           <!-- <span class="video-name" id="videoCopyToActive">Добавление ссылок на папку объекта в папку "2. Текущие"</span>-->
+            <div class="iFrame-video-obzor">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/rXLs2fw3Tps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="../../script/general.js"></script>
+</body>
+</html>
